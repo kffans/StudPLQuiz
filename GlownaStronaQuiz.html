@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POLLUB QUIZ</title>
+    <link rel="stylesheet" href="GlownaStronaQuiz.css">
+    <script src="cookies.js" ></script>
+    <script src="GlownaStronaQuiz.js"></script>
+</head>
+
+<body>
+    <main>
+        <section id="home">
+            <div>
+                <img style=" width: 400px; height: 100px" src="StudQuiz_Logo.png" alt="Logo Quizu">
+                <h1 style="text-align:center;">Quiz o Pollub</h1>
+                <p style=" text-align:center;">Sprawdź swoją wiedzę.</p>
+            </div>
+        </section>
+
+        <section id="formularz">
+            <div id="hide"></div>
+
+            <div id="nameField">
+                Hej, jak masz na imię?
+                <input type="text" id="nameInput"><br>
+                <button onclick="sendName();">Wyslij</button>
+            </div>
+        </section>
+
+        <section id="Quizy">
+
+            <div class="parent" style="text-align: center;">
+                <div class="div1"> <button class="kafelek" href="#" onclick="startQuiz(1)">weii</button></div>
+                <div class="div2"><button class="kafelek" href="#" onclick="startQuiz(2)">wm</button> </div>
+              <div class="div3">  <img id="logoTeamWEB"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHppQxio3TDWIF8DlPY4kosn0jcMykvXGcpg&usqp=CAU"
+                        alt="logoTeamWEB"></div>
+                <div class="div4"> <button class="kafelek" href="#" onclick="startQuiz(3)">wpt</button></div>
+                <div class="div5"> <button class="kafelek" href="#" onclick="startQuiz(4)">wz</button></div>
+            </div>
+        </section>
+
+        <section id="kontaktIudostepnienie">
+            <h4>Kontakt</h4>
+            <p>Dowiedz się więcej.</p>
+            <p id="Data"></p>
+            <button onclick="deleteAllCookies();">Usun ciasteczka</button>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Projekt koła naukowego TeamWEB. Wszelkie prawa zastrzeżone.</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
