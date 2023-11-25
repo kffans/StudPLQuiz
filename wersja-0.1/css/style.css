@@ -1,0 +1,156 @@
+* {
+	margin: 0px;
+}
+html{
+	font-family: Arial, sans-serif;
+	scroll-behavior: smooth;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+/* /////// /////// NAGŁÓWEK /////// /////// */
+#home {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+/* /////// /////// NAGŁÓWEK /////// /////// */
+
+
+
+
+/* /////// /////// IMIĘ /////// /////// */
+#formularz {
+	position: relative;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(187, 32, 42);
+}
+#hide {
+	width:100%;
+	height:100%;
+	display: none;
+	position:fixed;
+	top:0;
+	left:0;
+	opacity:50%;
+	background-color: gray;
+}
+#hide:hover {
+	opacity:50%;
+	transition: opacity 1s ease-in-out;
+}
+#hide:not(:hover) {
+	opacity:0%;
+	transition: opacity 1s ease-in-out;
+}
+#nameField {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 40px 0px;
+	color: white;
+	background-color: rgb(187, 32, 42);
+}
+/* /////// /////// IMIĘ /////// /////// */
+
+
+
+
+/* /////// /////// PRZYCISKI, KAFELKI /////// /////// */
+#quiz>a,
+.kafelek {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+}
+.kafelek {
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+button:hover,
+.kafelek:hover {
+    background-color: #555555;
+}
+/* /////// /////// PRZYCISKI, KAFELKI /////// /////// */
+
+
+
+
+/* /////// /////// QUIZ /////// /////// */
+#quiz {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.div1 { grid-area: 1 / 2 / 2 / 3; }
+.div2 { grid-area: 1 / 4 / 2 / 5; }
+.div3 { grid-area: 2 / 3 / 3 / 4; }
+.div4 { grid-area: 3 / 2 / 4 / 3; }
+.div5 { grid-area: 3 / 4 / 4 / 5; }
+#logoTeamWEB{
+    width: 150px;
+    height: 150px;
+}
+.question{
+	padding-top: 15%;
+	text-align:center;
+	margin-left: auto;
+	margin-right:auto;
+}
+.answer{
+	text-align:center;
+	margin-left:50%;
+}
+
+
+section.zestaw:target>#powrot{ visibility: hidden; }
+section.zestaw>#powrot{ position: sticky; visibility:visible; }
+section.question:not(:target){ display: none; }
+section.question:target{ display: block;}
+/* /////// /////// QUIZ /////// /////// */
+
+
+
+
+
+
+
+
+/* /////// /////// KONTAKT /////// /////// */
+#kontakt {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(187, 32, 42);
+}
+/* /////// /////// KONTAKT /////// /////// */
+
+
+
+
+/* /////// /////// STOPKA /////// /////// */
+footer {
+    text-align: center;
+    background-color: aliceblue;
+}
+/* /////// /////// STOPKA /////// /////// */
+

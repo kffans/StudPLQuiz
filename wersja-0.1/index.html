@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>POLLUB QUIZ</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<script src="js/cookies.js"></script>
+	</head>
+	
+	<body>
+		<main>
+			<section id="home">
+				<div>
+					<img style=" width: 400px; height: 100px" src="img/StudQuiz_Logo.png" alt="Logo Quizu">
+					<h1 style="text-align:center;">Quiz o Pollub</h1>
+					<p style=" text-align:center;">Sprawdź swoją wiedzę.</p>
+				</div>
+			</section>
+			<section id="formularz">
+				<div id="hide"></div>
+				
+				<div id="nameField">
+					Hej, jak masz na imię?<br><hr style="width:200px; color:white; margin:10px auto;">
+					<input type="text" id="nameInput"><br><hr style="width:200px; color:white; margin:10px auto;">
+					<button onclick="sendName();">Wyślij</button>
+				</div>
+				<script src="js/name.js"></script>
+			</section>
+			<section id="quiz">
+				<section class="zestaw" id="start">
+					<div class="parent" style="text-align: center;">
+						<div class="div1"> <a class="kafelek" href="#q_weii_1">weii</a></div>
+						<div class="div2"> <a class="kafelek" href="#q_wm_1">wm</a></div>
+						<div class="div3">  
+							<img id="logoTeamWEB"
+								 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHppQxio3TDWIF8DlPY4kosn0jcMykvXGcpg&usqp=CAU"
+								 alt="logoTeamWEB">
+						</div>
+						<div class="div4"> <a class="kafelek" href="#q_wpt_1">wpt</a></div>
+						<div class="div5"> <a class="kafelek" href="#q_wz_1">wz</a></div>
+					</div>
+					<br><br><br><br><br><br><br><br>
+					<a id="powrot" href="#start">Powrót do wyboru quizu</a>
+				</section>
+				
+					
+					
+				<section class="question" id="q_weii_1">
+					<h1>Pytanie 1</h1>
+					<a class="answer" href="#q_weii_2">odp</a>
+					<br><br><br><br><br><br><br><br>
+				</section>
+				
+
+				<section class="question" id="q_weii_2">
+					<h1>Pytanie 2</h1>
+					<a class="answer" href="#q_weii_3">odp</a>
+					<br><br><br><br><br><br><br><br>
+				</section>
+				
+				<section class="question" id="q_weii_3">
+					<h1>Pytanie 3</h1>
+					<a class="answer" href="#q_weii_4">odp</a>
+					<br><br><br><br><br><br><br><br>
+				</section>
+				
+				<section class="question" id="q_weii_4">
+					<h1>Pytanie 4</h1>
+					<a class="answer" href="#q_weii_4">odp</a>
+					<br><br><br><br><br><br><br><br>
+				</section>
+				<br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br>
+				
+				<!--<section class="zestaw" id="q_wm">
+					<a href="#q_start">Powrót do wyboru quizu</a>
+					wm
+				</section>
+				<section class="zestaw" id="q_wpt">
+					<a href="#q_start">Powrót do wyboru quizu</a>
+					wpt
+				</section>
+				<section class="zestaw" id="q_wz">
+					<a href="#q_start">Powrót do wyboru quizu</a>
+					wz
+				</section>-->
+			</section>
+
+			<section id="kontakt">
+				<h4>Kontakt</h4>
+				<p>Dowiedz się więcej.</p>
+				<p id="Data"></p>
+				<!-- Do usuniecia pozniej -->
+				<button onclick="deleteAllCookies();">Usun ciasteczka</button>
+			</section>
+
+			<footer>
+				<p>&copy; 2023 Projekt koła naukowego TeamWEB. Wszelkie prawa zastrzeżone.</p>
+			</footer>
+		</main>
+	</body>
+</html>
