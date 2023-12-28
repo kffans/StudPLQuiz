@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Quizy o Politechnice Lubelskiej"/>
+	<meta name="author" content="Ewa Organista"/>
+	
+	<title>StudPLQuiz - Quiz o Politechnice Lubelskiej</title>
+	
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+	
+	<script type="text/javascript" src="js/cookies.js"></script>
+</head>
+<body>
+	<main>
+		<!--<button onclick="deleteAllCookies();">wyczysc ciastka</button>-->
+		<section id="home">
+			<div>
+				<a href="main.html"><img style="width: 200px; height: 50px" src="img/StudQuiz_Logo.png" alt="Logo Quizu"/></a>
+				<h1 style="text-align:center;">Quiz o Politechnice Lubelskiej</h1>
+				<h3 style="text-align:center;">Sprawdź swoją wiedzę.</h3>
+			</div>
+		</section>
+		
+		<section id="forms-main">
+			<div id="hide"></div>
+			<div id="nameField">
+				Hej, jak masz na imię?<br>
+				<hr class="formsLine">
+				<input type="text" id="nameInput"><br>
+				<hr class="formsLine">
+				<button onclick="sendName();">Wyślij</button>
+			</div>
+			<script src="js/name.js"></script>
+		</section>
+		
+		<section id="quizSet">
+			<div id="parent">
+				<div class="div1"><button><a class="tile" href="weii.html">Wydział Elektrotechniki i Informatyki</a></button></div>
+				<div class="div2"><button><a class="tile" href="#q_wm_1">Wydział Mechaniczny</a></button></div>
+				<div class="div3"><button><a class="tile" href="#q_wpt_1">Wydział Matematyki i Informatyki Technicznej</a></button></div>
+				<div class="div4"><button><a class="tile" href="#q_wz_1">Wydział Zarządzania</a></button></div>
+				<div class="div5"><button><a class="tile" href="#q_pl">Politechnika Lubelska</a></button></div>
+			</div>
+		</section>
+			
+
+		<section id="contact">
+			<div id="logos"> 
+				<img id="logoTeamWEB" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHppQxio3TDWIF8DlPY4kosn0jcMykvXGcpg&usqp=CAU" alt="Logo TeamWEB"/>
+				<img id="logoPL" src="img/pl.jpg" alt="Logo Politechniki Lubelskiej"/>
+			</div>
+			
+			<h2>Social Media</h2></br>
+			<p>Facebook:<a href="https://www.facebook.com/KNTeamWEB"><span> KNTeamWEB</span></a></p></br>
+			<p>Instagram:<a href="https://www.instagram.com/knteamweb/"><span> knteamweb</span></a></p></br>
+			<p>LinkedIn:<a href="https://www.linkedin.com/company/knteamweb/"><span> knteamweb</span></a></p></br>
+			
+			<p id="date"></p>
+		</section>
+
+		<footer>
+			<p>&copy; 2023 Projekt koła naukowego TeamWEB. Wszelkie prawa zastrzeżone.</p>
+		</footer>
+	</main>
+</body>
+</html>

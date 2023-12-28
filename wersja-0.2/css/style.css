@@ -1,7 +1,7 @@
-* {
+ * {
 	margin: 0px;
 }
-html {
+html{
 	font-family: Arial, sans-serif;
 	scroll-behavior: smooth;
 }
@@ -10,89 +10,126 @@ main {
     flex-direction: column;
     min-height: 100vh;
 }
-body{
-	background-image: url('../img/bg.jpg');
-}
-h1 {
-	font-size: 40px;
-}
-h3 {
-    color: #555;
+
+body { background-image: '3274764.jpg';
+
 }
 
 
 
 
-/* /////// /////// HEADER /////// /////// */
+/* /////// /////// NAGŁÓWEK /////// /////// */
 #home {
     text-align: center;
     padding: 20px;
+    
 }
-/* /////// /////// HEADER /////// /////// */
+/* /////// /////// NAGŁÓWEK /////// /////// */
+h1 {font-size: 40px;
+
+}
+h3 {
+    color: #555555;
+}
 
 
-
-
-/* /////// /////// FORMS /////// /////// */
-#forms-main {
+/* /////// /////// IMIĘ /////// /////// */
+#forms {
 	position: relative;
     text-align: center;
     color: aliceblue;
     background-color: rgb(187, 32, 42);
+   
 }
-#forms-quiz {
-    text-align: center;
-    color: aliceblue;
-    background-color: rgb(187, 32, 42);
+#hide {
+	width:100%;
+	height:100%;
+	display: none;
+	position:fixed;
+	top:0;
+	left:0;
+	opacity:50%;
+    
+	
 }
-.formsLine {
-	width: 200px;
-	color: white;
-	margin: 10px auto;
+#hide:hover {
+	opacity:50%;
+	transition: opacity 1s ease-in-out;
+    
 }
-/* /////// /////// FORMS /////// /////// */
-
-
-
-
-/* /////// /////// NAME INPUT /////// /////// */
+#hide:not(:hover) {
+	opacity:0%;
+	transition: opacity 1s ease-in-out;
+}
 #nameField {
 	width: 100%;
 	height: 100px;
 	position: relative;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right:auto;
 	padding: 40px 0px;
 	color: white;
 	background-color: rgb(187, 32, 42);
 }
-#hide {
+/* /////// /////// NAME /////// /////// */
+
+
+
+
+/* /////// /////// BUTTON, KAFELKI /////// /////// */
+.quiz>a,
+.kafelek {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+}
+.kafelek {
+    width: 400px;
+    height: 100px;
+    font-size:30px;
+   padding-top: 20%;
+}
+button:hover { background-color: #555;}
+.kafelek:hover {
+    background-color: #555;
+
+}
+
+/* /////// /////// BUTTON, KAFELKI /////// /////// */
+
+
+
+
+/* /////// /////// QUIZ /////// /////// */
+#forms-quiz {
+	position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgb(187, 32, 42);;
+}
+#namequiz {
 	width: 100%;
-	height: 100%;
-	display: none;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	opacity: 50%;
-	background-color: black;
+	height: 50px;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 10px 0px ;
+   
+	color: white;
+	;
 }
-#hide:hover {
-	opacity: 50%;
-	transition: opacity 1s ease-in-out;
+#quiz {
+    text-align: center;
+    padding: 20px;
+
+   
 }
-#hide:not(:hover) {
-	opacity: 0%;
-	transition: opacity 1s ease-in-out;
-}
-/* /////// /////// NAME INPUT /////// /////// */
-
-
-
-
-/* /////// /////// QUIZ SET /////// /////// */
-#parent {
-	padding: 20px;
-	text-align: center;
+.parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -100,60 +137,51 @@ h3 {
 }
 .div1 { grid-area: 1 / 2 / 2 / 3; }
 .div2 { grid-area: 1 / 4 / 2 / 5; }
-.div3 { grid-area: 3 / 2 / 4 / 3; }
-.div4 { grid-area: 3 / 4 / 4 / 5; }
-.div5 { grid-area: 4 / 2 / 5 / 5; }
-.tile {
-    width: 400px;
-    height: 100px;
-    padding: 10px;
-	padding-top: 20%;
-    display: inline-block;
-    border: none;
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    background-color: black;
+.div3 {
+float:right;
 }
-.tile:hover {
-    background-color: #555;
+.div4 { grid-area: 3 / 2 / 4 / 3; }
+.div5 { grid-area: 3 / 4 / 4 / 5; }
+.div6 { grid-area: 4 / 2 / 5 / 5;
+font-weight:bolder; }
+
+#logoTeamWEB{
+    padding-top: 30px;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
 }
-button:hover {
-	background-color: #555;
+#logoPL{
+    padding-top: 30px;
+    margin-right: 20px;
+    width: 350px;
+    height: 120px;
 }
-/* /////// /////// QUIZ SET /////// /////// */
-
-
-
-
-/* /////// /////// QUIZ QUESTIONS/ANSWERS /////// /////// */
-#quizName {
-	width: 100%;
-	height: 50px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px 0px;
-	color: white;
-}
-.question {
+.question{
 	padding-top: 5%;
     padding-bottom: 5%;
-	text-align: center;
+	text-align:center;
 	margin-left: auto;
-	margin-right: auto;
-    background-color: black;
+	margin-right:auto;
+    background-color: #000000;
     width: 400px;
     color: white;
 }
-.answer {
-	text-align: center;
-	margin-left: 50%;
+.answer{
+	text-align:center;
+	margin-left:50%;
 }
-#return {
-	text-align: center;
-}
-/* /////// /////// QUIZ QUESTIONS/ANSWERS /////// /////// */
+
+
+
+section.zestaw>#powrot{ position: sticky; visibility:visible; }
+section.question:not(:target){ display: none; }
+section.question:target{ display: block;}
+/* /////// /////// QUIZ /////// /////// */
+
+
+
+
 
 
 
@@ -162,36 +190,22 @@ button:hover {
 #contact {
     text-align: center;
     color: aliceblue;
-    background-color: rgb(187, 32, 42);
-    margin-top: 20px;
-    float: initial;
+    background-color:rgb(187, 32, 42);
+    margin-top:20px;
+    float:initial;
 }
-#contact>a {
-    color: white;
-}
-#logos {
-	float: right;
-}
-#logoTeamWEB {
-    padding-top: 30px;
-    margin-right: 20px;
-    width: 120px;
-    height: 120px;
-}
-#logoPL {
-    padding-top: 30px;
-    margin-right: 20px;
-    width: 350px;
-    height: 120px;
+#contact>a{
+    color:white;
 }
 /* /////// /////// CONTACT /////// /////// */
+
 
 
 
 /* /////// /////// FOOTER /////// /////// */
 footer {
     text-align: center;
+
 }
 /* /////// /////// FOOTER /////// /////// */
-
 

@@ -1,4 +1,4 @@
-
+//skopiowny kod js do obsługi formularza imienia
 function sendName(){
 	let name = document.getElementById("nameInput").value;
 	
@@ -7,7 +7,7 @@ function sendName(){
 	}
 	
 	setWelcome();
-	}
+}
 
 function setWelcome(){
 	if(cookieExists("name")){
@@ -15,9 +15,9 @@ function setWelcome(){
 		
 		let name = valueFromCookie("name");
 		if(name==""){
-			document.getElementById("nameField").innerHTML = "<h1>Cześć!</h1>";
+			document.getElementById("nameField").innerHTML = "Cześć!";
 		} else {
-			document.getElementById("nameField").innerHTML = "<h1>Cześć " + valueFromCookie("name") + "!</h1>";
+			document.getElementById("nameField").innerHTML = "Cześć " + valueFromCookie("name") + "!";
 		}
 	} else {
 		document.getElementById("hide").style.display = "block";
@@ -26,4 +26,3 @@ function setWelcome(){
 
 
 setWelcome();
-

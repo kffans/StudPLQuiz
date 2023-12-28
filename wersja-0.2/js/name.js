@@ -7,7 +7,7 @@ function sendName(){
 	}
 	
 	setWelcome();
-}
+	}
 
 function setWelcome(){
 	if(cookieExists("name")){
@@ -15,9 +15,9 @@ function setWelcome(){
 		
 		let name = valueFromCookie("name");
 		if(name==""){
-			document.getElementById("nameField").innerHTML = "Cześć!";
+			document.getElementById("nameField").innerHTML = "<h1>Cześć!</h1>";
 		} else {
-			document.getElementById("nameField").innerHTML = "Cześć " + valueFromCookie("name") + "!";
+			document.getElementById("nameField").innerHTML = "<h1>Cześć " + valueFromCookie("name") + "!</h1>";
 		}
 	} else {
 		document.getElementById("hide").style.display = "block";

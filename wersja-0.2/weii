@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>StudPLquiz</title>
+  <meta name="description" content="Quize o Politechice Lubelskiej" />
+  <meta name="author" content="Ewa Organista" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<script type="text/javascript" src="js/cookies.js"></script>
+        <script type="text/javascript" src="js/name.js"></script>
+	</head>
+<body style="background-image: url('3274764.jpg');">
+  <main>
+
+    <section id="home">
+        <div>
+            <img style=" width: 200px; height: 50px" src="img/StudQuiz_Logo.png" alt="Logo Quizu">
+            <h1 style="text-align:center;">Quiz o Politechnice Lubelskiej</h1>
+            <h3 style=" text-align:center;">Sprawdź swoją wiedzę.</h3>
+        </div>
+    </section>
+    <section id="forms">
+        <div id="hide"></div>
+        
+        <div id="namequiz">
+            <h3>Wydział Elektrotechniki i Informatyki <br><hr style="width:200px; color:white; margin:10px auto;">
+            
+        </div>
+       
+    </section>
+    <section id="quiz">
+        <section class="zestaw" id="start">
+            <br><br>
+            <a id="powrot" href="#start">Powrót do wyboru quizu</a>
+        </section>
+        
+            
+            
+        <section class="question" id="q_weii_1">
+            <h1>Pytanie 1</h1>
+            <p>Co oznacza skrót WEiI</p>
+            <a class="answer" href="#q_weii_2">odp</a>
+            <p>A. Wydzial Elektrotechniki i Informatyki</p>
+            <p>B. Wydział Elektryki i Informatyki</p>
+            <p>C. Wydział Elektrononika i Innowacyjnosc</p>
+            <p>D. Wydział Elektrotechniki i Inzynierii Systemów</p>
+            <br>
+            <br><br><br><br><br><br><br>
+        </section>
+        
+
+        <section class="question" id="q_weii_2">
+            <h1>Pytanie 2</h1>
+            <a class="answer" href="#q_weii_3">odp</a>
+            <br><br><br><br><br><br><br><br>
+        </section>
+        
+        <section class="question" id="q_weii_3">
+            <h1>Pytanie 3</h1>
+            <a class="answer" href="#q_weii_4">odp</a>
+            <br><br><br><br><br><br><br><br>
+        </section>
+        
+        <section class="question" id="q_weii_4">
+            <h1>Pytanie 4</h1>
+            <a class="answer" href="#q_weii_4">odp</a>
+            <br><br><br><br><br><br><br><br>
+        </section>
+       
+        
+        <!--<section class="zestaw" id="q_wm">
+            <a href="#q_start">Powrót do wyboru quizu</a>
+            wm
+        </section>
+        <section class="zestaw" id="q_wpt">
+            <a href="#q_start">Powrót do wyboru quizu</a>
+            wpt
+        </section>
+        <section class="zestaw" id="q_wz">
+            <a href="#q_start">Powrót do wyboru quizu</a>
+            wz
+        </section>-->
+    </section>
+
+    <section id="kontakt">
+        <h4>Kontakt</h4>
+        <p>Dowiedz się więcej.</p>
+        <p id="Data"></p>
+        <!-- Do usuniecia pozniej -->
+        <button onclick="deleteAllCookies();">Usun ciasteczka</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Projekt koła naukowego TeamWEB. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</main>
+</body>
+</html>
