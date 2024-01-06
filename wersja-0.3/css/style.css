@@ -184,6 +184,29 @@ button:hover {
     width: 350px;
     height: 120px;
 }
+
+#social-media{
+	position: absolute;
+	left:20px;
+}
+
+#social-media h2{
+	margin-top: 8px;
+}
+
+#social-media i{
+	float:left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#social-media a{
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 30px;
+	font-size: 18px;
+}
 /* /////// /////// CONTACT /////// /////// */
 
 
