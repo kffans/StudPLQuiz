@@ -104,16 +104,16 @@ h3 {
 .div4 { grid-area: 3 / 4 / 4 / 5; }
 .div5 { grid-area: 4 / 2 / 5 / 5; }
 .tile {
-    width: 400px;
-    height: 100px;
-    padding: 10px;
-	padding-top: 20%;
+    width: 28vw;
+    height: 160px;
+	padding-top: 10%;
     display: inline-block;
     border: none;
     text-decoration: none;
     font-size: 30px;
     color: white;
     background-color: black;
+
 }
 .tile:hover {
     background-color: #555;
@@ -171,16 +171,15 @@ button:hover {
 }
 #logos {
 	float: right;
+	padding-top: 15px;
 }
 #logoTeamWEB {
-    padding-top: 30px;
-    margin-right: 20px;
     width: 120px;
     height: 120px;
+	margin: 0 20px 2% 0;
 }
 #logoPL {
-    padding-top: 30px;
-    margin-right: 20px;
+    margin: 0 20px 2% 0;
     width: 350px;
     height: 120px;
 }
@@ -207,6 +206,7 @@ button:hover {
 	left: 30px;
 	font-size: 18px;
 }
+
 /* /////// /////// CONTACT /////// /////// */
 
 
