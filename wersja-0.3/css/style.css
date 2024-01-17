@@ -152,6 +152,18 @@ button:hover {
 }
 #return {
 	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 5px;
+	padding: 10px;
+	font-weight: bold;
+	background-color:gainsboro;
+}
+
+#return:hover{
+	background-color:rgb(200, 200, 200);
+	transition-duration: 1s;
 }
 /* /////// /////// QUIZ QUESTIONS/ANSWERS /////// /////// */
 
