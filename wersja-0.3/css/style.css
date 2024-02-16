@@ -184,6 +184,7 @@ button:hover {
 #logos {
 	float: right;
 	padding-top: 15px;
+	position: relative;
 }
 #logoTeamWEB {
     width: 120px;
