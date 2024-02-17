@@ -1,0 +1,86 @@
+Co oznacza skrót WEiI?
+
+a) Wydział Elektroniki i Informatyki
+b) Wydział Elektrykli i Informatyki
+c) Wydział Elektroniki i Innowacji
+d) Wydział Elektrotechniki i Informatyki *
+
+-----------------------------------------------------------------
+
+Ile na wydziale WEiI funkcjonuje kierunków?
+
+a) 4
+b) 5
+c) 6 *
+d) 7
+
+-----------------------------------------------------------------
+Jaki kolor ma logo wydziału WEiI
+
+a) niebieski
+b) czerwony
+c) zółty *
+d) czarny 
+
+-----------------------------------------------------------------
+
+Które z poleceń utworzy nowe repozytorium w systemie kontroli wersji Git?
+
+a) git add    
+b) git init *
+c) git pull    
+d) git clone
+
+-----------------------------------------------------------------
+
+Co nie jest typem złośliwego oprogramowania?
+
+a) wirus    
+b) robak    
+c) bakteria *
+d) koń trojański
+
+-----------------------------------------------------------------
+
+Które z danych poleceń wyświetli w terminalu ścieżkę bieżącego katalogu w systemie Linux?
+
+a) ls 
+b) dir    
+c) whereis   
+d) pwd *
+
+-----------------------------------------------------------------
+
+Jakiego systemu plików nie obsługuje system Windows?
+
+a) NTFS   
+b) exFAT    
+c)FAT32    
+d) ext4 *
+
+-----------------------------------------------------------------
+
+Której komendy sieciowej nie ma w systemie Linux?
+
+a) ipconfig  *
+b) ifconfig    
+c) traceroute    
+d) nslookup
+
+-----------------------------------------------------------------
+
+Czym jest router w kontekście sieci komputerowych?
+
+a) Urządzeniem służącym do drukowania dokumentów.
+b) Urządzeniem umożliwiającym połączenie wielu sieci komputerowych. *
+c) Nazwą aplikacji internetowej.
+d) Nazwą jednego z systemów operacyjnych.
+
+-----------------------------------------------------------------
+
+Pytanie: W jakim formacie zapisuje się adres IP?
+
+a) 128-bitowym
+b) 64-bitowym
+c) 32-bitowym *
+d) 16-bitowym
