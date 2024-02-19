@@ -84,3 +84,12 @@ a) 128-bitowym
 b) 64-bitowym
 c) 32-bitowym *
 d) 16-bitowym
+
+-----------------------------------------------------------------
+
+PaaS, SaaS i IaaS to?
+
+a) dystrybucje systemu Linux
+b) rozwiązania chmurowe  *
+c) wtyczki do przeglądarki internetowej
+d) repozytoria w językach programowania
