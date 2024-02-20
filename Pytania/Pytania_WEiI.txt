@@ -93,3 +93,12 @@ a) dystrybucje systemu Linux
 b) rozwiązania chmurowe  *
 c) wtyczki do przeglądarki internetowej
 d) repozytoria w językach programowania
+
+-----------------------------------------------------------------
+
+Jak nazywa się zaszyfrowany protokół służący do komunikacji sieciowej?
+
+a) HTTP
+b) HTTPS *
+c) OpenSSL
+d) REST API
