@@ -90,12 +90,28 @@ h3 {
 
 
 /* /////// /////// QUIZ SELECT /////// /////// */
+#quizSelect{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.quizTile img{
+	width: 100%;
+}
+
 .quizTile{
-	width:auto;
-	height:auto;
-	margin:30px;
-	margin-left: auto;
-	margin-right:auto;
+	width:25%;
+	margin:50px 70px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+	.quizTile{
+		width:50%;
+	}
 }
 /* /////// /////// QUIZ SELECT /////// /////// */
 
@@ -117,31 +133,30 @@ h3 {
     text-align: center;
     color: aliceblue;
     background-color: rgb(187, 32, 42);
+	opacity: 92%;
     margin-top: 20px;
-    float: initial;
+	display: flex;
+	justify-content: space-between;
 }
 #contact>a {
     color: white;
 }
 #logos {
-	float: right;
 	padding-top: 15px;
-	position: relative;
 }
 #logoTeamWEB {
     width: 120px;
     height: 120px;
-	margin: 0 20px 2% 0;
+	margin: 0 20px 2% 0; 
 }
 #logoPL {
-    margin: 0 20px 2% 0;
+    margin: 0 20px 2% 0; 
     width: 350px;
     height: 120px;
 }
 
 #social-media{
-	position: absolute;
-	left:20px;
+	margin-left: 20px;
 }
 
 #social-media h2{
@@ -149,18 +164,31 @@ h3 {
 }
 
 #social-media i{
-	float:left;
 	font-size: 20px;
 	font-weight: bold;
+
 }
 
 #social-media a{
 	text-decoration: none;
 	color: white;
-	position: absolute;
-	left: 30px;
 	font-size: 18px;
 }
+
+@media screen and (max-width: 600px){
+	#contact{
+		flex-direction: column-reverse;
+	}
+
+	#logoTeamWEB {
+		margin: 10px 0; 
+	}
+
+	#logoPL {
+		margin: 10px 0; 
+	}
+}
+
 
 /* /////// /////// CONTACT /////// /////// */
 
@@ -169,6 +197,7 @@ h3 {
 /* /////// /////// FOOTER /////// /////// */
 footer {
     text-align: center;
+	padding: 2px;
 }
 /* /////// /////// FOOTER /////// /////// */
 
