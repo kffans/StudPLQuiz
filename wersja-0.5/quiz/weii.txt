@@ -1,4 +1,4 @@
-weii\WEiI\11\
+weii\WEiI\12\
 
 
 Co oznacza skrót WEiI?\\4\
@@ -66,3 +66,9 @@ rozwiązania chmurowe\
 dystrybucje systemu Linux\
 wtyczki do przeglądarki internetowej\
 repozytoria w językach programowania\
+
+Jak nazywa się zaszyfrowany protokół służący do komunikacji sieciowej?\\4\
+HTTPS\
+HTTP\
+OpenSSL\
+REST API\
