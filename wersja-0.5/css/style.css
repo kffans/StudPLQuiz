@@ -99,6 +99,7 @@ h3 {
 
 .quizTile img{
 	width: 100%;
+	
 }
 
 .quizTile{
@@ -157,6 +158,7 @@ h3 {
 
 #social-media{
 	margin-left: 20px;
+	text-align: left;
 }
 
 #social-media h2{

@@ -97,7 +97,7 @@ function quizInterpret(){
 	return 1;
 }
 function quizHome(){
-	document.getElementById('quizSelect').style.display="block";
+	document.getElementById('quizSelect').style.display="flex";
 	document.getElementById('quizForm').style.display="none";
 }
 function quizCheckAnswers(){
