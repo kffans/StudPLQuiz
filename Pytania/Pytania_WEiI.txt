@@ -102,3 +102,51 @@ a) HTTP
 b) HTTPS *
 c) OpenSSL
 d) REST API
+
+-----------------------------------------------------------------
+
+Co to jest transformator i do czego służy?
+
+a) Urządzenie do zmiany napięcia w obwodach prądu stałego.
+b) Urządzenie do regulacji prądu w obwodach prądu przemiennego.  *
+c) Urządzenie służące do przekształcania energii mechanicznej na elektryczną.
+d) Urządzenie do przesyłania energii radiowej.
+
+-----------------------------------------------------------------
+
+Podaj jednostkę miary pojemności kondensatora?
+
+a) Henry (H)
+b) Volt (V)
+c) Farad (F)  *
+d) Ampere (A)
+
+
+-----------------------------------------------------------------
+
+Jakie jest główne zastosowanie rezystora w obwodach elektrycznych?
+
+a) Magazynowanie energii elektrycznej.
+b) Kontrolowanie przepływu prądu.  *
+c) Zmiana napięcia w obwodach prądu przemiennego.
+d) Produkcja energii elektrycznej.
+
+-----------------------------------------------------------------
+
+Co to jest prąd elektryczny?
+
+a) Przepływ ładunków elektrycznych w obwodzie. *
+b) Sposób zasilania odbiorników elektrycznych.
+c) Właściwość materiału do przewodzenia ciepła.
+d) Sposób przenoszenia energii w przewodach.
+
+-----------------------------------------------------------------
+
+Czym jest dioda półprzewodnikowa?
+
+a) Urządzenie elektryczne przewodzące prąd tylko w jednym kierunku. *
+b) Urządzenie elektryczne przewodzące prąd w obie strony jednocześnie.
+c) Urządzenie elektryczne, które generuje prąd elektryczny pod wpływem promieniowania słonecznego.
+d) Urządzenie elektryczne, które zmienia częstotliwość prądu elektrycznego.
+
+
