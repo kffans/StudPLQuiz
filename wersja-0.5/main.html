@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="description" content="Quizy o Politechnice Lubelskiej"/>
-	<meta name="author" content="Ewa Organista"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Quizy o Politechnice Lubelskiej">
+	<meta name="author" content="Ewa Organista">
 	
 	<title>StudPLQuiz - Quiz o Politechnice Lubelskiej</title>
 	
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 	
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-	<script type="text/javascript" src="js/quiz.js"></script>
-	<script type="text/javascript" src="js/cookies.js"></script>
+	<script src="js/quiz.js"></script>
+	<script src="js/cookies.js"></script>
 	<script src="https://kit.fontawesome.com/6e476cbd48.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,13 +22,13 @@
 	<main>
 		<section id="home">
 			<div>
-				<a href="main.html"><img style="width: 200px; height: 50px" src="img/StudQuiz_Logo.png" alt="Logo Quizu"/></a>
+				<a href="main.html"><img style="width: 200px; height: 50px" src="img/StudQuiz_Logo.png" alt="Logo Quizu"></a>
 				<h1 style="text-align:center;">Quiz o Politechnice Lubelskiej</h1>
 				<h3 style="text-align:center;">Sprawdź swoją wiedzę.</h3>
 			</div>
 		</section>
 		
-		<section id="forms-main">
+		<div id="forms-main">
 			<div id="hide"></div>
 			<div id="nameField">
 				Hej, jak masz na imię?<br>
@@ -38,45 +38,43 @@
 				<button onclick="sendName();">Wyślij</button>
 			</div>
 			<script src="js/name.js"></script>
-		</section>
+		</div>
 		
-		<section id="quizSelect">
-			<button class="quizTile" onclick="quizLoad('wbia');"><img src="img/wydzialy/sygnet_wbia.jpg"></button>
-			<button class="quizTile" onclick="quizLoad('weii');"><img src="img/wydzialy/sygnet_weii.jpg"></button>
-			<button class="quizTile" onclick="quizLoad('wis'); "><img src="img/wydzialy/sygnet_wis.jpg"></button>
-			<button class="quizTile" onclick="quizLoad('wm');  "><img src="img/wydzialy/sygnet_wm.jpg"></button>
-			<button class="quizTile" onclick="quizLoad('wmit');"><img src="img/wydzialy/sygnet_wmit.jpeg"></button>
-			<button class="quizTile" onclick="quizLoad('wz');  "><img src="img/wydzialy/sygnet_wz.jpg"></button>
-			<button class="quizTile" onclick="quizLoad('pol'); "><img src="img/wydzialy/sygnet_pl.jpg"></button>
-		</section>
+		<div id="quizSelect">
+			<button class="quizTile" onclick="quizLoad('wbia');"><img alt="WBiA" src="img/wydzialy/sygnet_wbia.jpg"></button>
+			<button class="quizTile" onclick="quizLoad('weii');"><img alt="WEiI" src="img/wydzialy/sygnet_weii.jpg"></button>
+			<button class="quizTile" onclick="quizLoad('wis'); "><img alt="WIŚ"  src="img/wydzialy/sygnet_wis.jpg" ></button>
+			<button class="quizTile" onclick="quizLoad('wm');  "><img alt="WM"   src="img/wydzialy/sygnet_wm.jpg"  ></button>
+			<button class="quizTile" onclick="quizLoad('wmit');"><img alt="WMIT" src="img/wydzialy/sygnet_wmit.jpg"></button>
+			<button class="quizTile" onclick="quizLoad('wz');  "><img alt="WZ"   src="img/wydzialy/sygnet_wz.jpg"  ></button>
+			<button class="quizTile" onclick="quizLoad('pol'); "><img alt="PL"   src="img/wydzialy/sygnet_pl.jpg"  ></button>
+		</div>
 		<p id="quizContent" style="display:none;"></p>
-		<section id="quizForm" style="display:none;"></section>
+		<div id="quizForm" style="display:none;"></div>
 
 		<section id="contact">
-			
 			<div id="social-media">
-				<h2>Social Media</h2>
+				<h2>Nasze Social Media:</h2>
 				<div style="height: 15px; padding-top: 10px;">
-				<i class="fa-brands fa-facebook" style="color: #0863F7;"></i>
-				<a href="https://www.facebook.com/KNTeamWEB" target="_blank">KNTeamWEB</a></div></br>
-
+                    <i class="fa-brands fa-facebook" style="color: #0863F7;"></i>
+                    <a href="https://www.facebook.com/KNTeamWEB" target="_blank">KNTeamWEB</a>
+                </div><br>
 				<div style="height: 15px;">
-				<i class="fa-brands fa-instagram" style="color:#962FBF;"></i>
-				<a href="https://www.instagram.com/knteamweb/" target="_blank">knteamweb</a></div></br>
-
+                    <i class="fa-brands fa-instagram" style="color: #962FBF;"></i>
+                    <a href="https://www.instagram.com/knteamweb/" target="_blank">knteamweb</a>
+                </div><br>
 				<div style="height: 15px;">
-				<i class="fa-brands fa-linkedin-in" style="color: #0077B5;"></i>
-				<a href="https://www.linkedin.com/company/knteamweb/" target="_blank">knteamweb</a></div></br>
+                    <i class="fa-brands fa-linkedin-in" style="color: #0077B5;"></i>
+                    <a href="https://www.linkedin.com/company/knteamweb/" target="_blank">knteamweb</a>
+                </div><br>
 			</div>
 			<div id="logos"> 
 				<a href="https://pollub.pl/" target="_blank">
-				<img id="logoPL" src="img/pl.jpg" alt="Logo Politechniki Lubelskiej"/>
+                    <img id="logoPL" src="img/pl.jpg" alt="Logo Politechniki Lubelskiej">
 				</a>
-
 				<a href="https://www.facebook.com/KNTeamWEB" target="_blank">
-				<img id="logoTeamWEB" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHppQxio3TDWIF8DlPY4kosn0jcMykvXGcpg&usqp=CAU" alt="Logo TeamWEB"/>
+                    <img id="logoTeamWEB" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHppQxio3TDWIF8DlPY4kosn0jcMykvXGcpg&usqp=CAU" alt="Logo TeamWEB">
 				</a>
-
 			</div>
 		</section>
 
