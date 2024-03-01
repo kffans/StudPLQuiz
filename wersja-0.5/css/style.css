@@ -184,10 +184,27 @@ h3 {
 
 
 /* /////// /////// QUIZ QUESTIONS/ANSWERS /////// /////// */
-.answer {}
+.answer input[type='radio'] {
+	appearance: none;
+	width: 1em;
+	height: 1em;
+	border: 0.1em solid black;
+	border-radius: 50%;
+	ouline: none;
+	outline-offset: 0px;
+	box-shadow: 0 0 4px #999;
+	transition: box-shadow 0.3s ease;
+}
 
-.answerLabel {}
+.answer input[type='radio']:checked {
+	outline: 0.3em solid rgb(187, 32, 42);
+	outline-offset: -0.3em;
+}
 
+.answer {
+	padding: 4px;
+    display: inline-block;
+}
 /* /////// /////// QUIZ QUESTIONS/ANSWERS /////// /////// */
 
 
