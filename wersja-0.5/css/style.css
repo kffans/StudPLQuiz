@@ -14,9 +14,7 @@ main {
 }
 
 body {
-
     background-image: url('../img/bg.jpg');
-
 }
 
 h1 {
@@ -45,6 +43,7 @@ h3 {
 #forms-main {
     position: relative;
     text-align: center;
+	opacity: 92%;
     color: aliceblue;
     background-color: rgb(187, 32, 42);
 }
@@ -62,7 +61,6 @@ h3 {
 }
 
 .buttonForm {
-    display: auto;
     flex-direction: row;
     align-items: center;
     cursor: pointer;
@@ -104,11 +102,9 @@ h3 {
     /*font-family: 'Arial Narrow Bold';*/
     font-weight: 300;
     font-size: 20px;
-
 }
 
 #nameInput{
-    display: auto;
     flex-direction: row;
     align-items: center;
     cursor: pointer;
@@ -160,7 +156,6 @@ h3 {
 
 .quizTile img {
     width: 100%;
-
 }
 
 .quizTile {
@@ -169,7 +164,7 @@ h3 {
     padding: 0px;
     cursor: pointer;
     border: solid #000000 4px;
-    box-shadow: #a09f9f 10px;
+    box-shadow: rgb(160, 160, 160, .5) 10px 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -256,7 +251,6 @@ h3 {
 #social-media i {
     font-size: 20px;
     font-weight: bold;
-
 }
 
 #social-media a {
@@ -278,7 +272,6 @@ h3 {
         margin: 10px 0;
     }
 }
-
 
 /* /////// /////// CONTACT /////// /////// */
 
