@@ -67,10 +67,12 @@ function quizInterpret() {
             quiz.innerHTML += photoUrl[i];
             //quiz.innerHTML += "<img src='img/" + photoUrl[i] + "'/>";
         quiz.innerHTML += "<br>";
-        /* this loop is slow */
         for (let j = 0; j < answerCount[i]; j++) {
-            quiz.innerHTML += '<input class="answer" type="radio" name="' + nameId + '" id="' + nameId + '_' + j + '" value="' + j + '" />';
-            quiz.innerHTML += '<label class="answerLabel" for="' + nameId + '_' + j + '"> ' + questionArray[i][j] + '</label><br>';
+            quiz.innerHTML += '<label class="answer"><input class="answer" type="radio"' + 
+						      ' name="' + nameId + 
+							  '" id="' + nameId + '_' + j + 
+							  '" value="' + j + 
+							  '" /> ' + questionArray[i][j] + '</label><br>';
         }
     }
     quiz.innerHTML += '<button onclick="quizCheckAnswers();">Wynik</button><br>';
@@ -97,8 +99,10 @@ function quizCheckAnswers() {
     let points = 0;
     for (let i = 0; i < N; i++) {
         let answerName = quizId + '_' + i;
-        if (document.getElementById(answerName + '_' + answerIndex[i]).checked == true)
-            points++;
+        if (document.getElementById(answerName + '_' + answerIndex[i]).checked == true) {
+            /*document.getElementById(answerName + '_' + answerIndex[i]).style.border = "5px solid black";*/
+			points++;
+		}
     }
     alert(points + '/' + N);
     
