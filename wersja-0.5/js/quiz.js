@@ -68,11 +68,13 @@ function quizInterpret() {
             //quiz.innerHTML += "<img src='img/" + photoUrl[i] + "'/>";
         quiz.innerHTML += "<br>";
         for (let j = 0; j < answerCount[i]; j++) {
-            quiz.innerHTML += '<label class="answer"><input class="answer" type="radio"' + 
-						      ' name="' + nameId + 
-							  '" id="' + nameId + '_' + j + 
-							  '" value="' + j + 
-							  '" /> ' + questionArray[i][j] + '</label><br>';
+            quiz.innerHTML += '<label class="answer"' + 
+                              ' id="label_' + nameId + '_' + j + 
+                              '"><input class="answer" type="radio"' + 
+                              ' name="' + nameId + 
+                              '" id="' + nameId + '_' + j + 
+                              '" value="' + j + 
+                              '" /> ' + questionArray[i][j] + '</label><br>';
         }
     }
     quiz.innerHTML += '<button onclick="quizCheckAnswers();">Wynik</button><br>';
@@ -97,22 +99,44 @@ function quizHome() {
 function quizCheckAnswers() {
     let N = answerIndex.length;
     let points = 0;
+    
+    /* reset the styling of answers */
     for (let i = 0; i < N; i++) {
         let answerName = quizId + '_' + i;
-        if (document.getElementById(answerName + '_' + answerIndex[i]).checked == true) {
-            /*document.getElementById(answerName + '_' + answerIndex[i]).style.border = "5px solid black";*/
-			points++;
-		}
-    }
-    alert(points + '/' + N);
-    
-    
-    /*let radioButtons = document.getElementsByName('radio');
-    for (let radio of radioButtons) {
-        if (radio.checked) {
-            output.innerHTML = "The radio button is selected and it's value is " + radio.value;
+        let radioButtons = document.getElementsByName(answerName);
+        let j = 0;
+        for (let radio of radioButtons) {
+            document.getElementById('label_' + answerName + '_' + j).style.opacity = "100%";
+            document.getElementById('label_' + answerName + '_' + j).style.fontWeight = "normal";
+            j++;
         }
-    }*/
+    }
+    
+    /* style the answers according to their rightness */
+    for (let i = 0; i < N; i++) {
+        let answerName = quizId + '_' + i;
+        let radioButtons = document.getElementsByName(answerName);
+        let isAnyRadioChecked = false;
+        for (let radio of radioButtons) {
+            if (radio.checked) {
+                isAnyRadioChecked = true;
+                break;
+            }
+        }
+        if (isAnyRadioChecked) {
+            let j = 0;
+            for (let radio of radioButtons) {
+                if (answerIndex[i] == j) {                    /* right answer */
+                    document.getElementById('label_' + answerName + '_' + j).style.fontWeight = "bold";
+                    points++;
+                }
+                if (radio.checked && answerIndex[i] != j) {   /* wrong answer */
+                    document.getElementById('label_' + answerName + '_' + j).style.opacity = "40%";
+                }
+                j++;
+            }
+        }
+    }
 }
 function transformArr(vector, N, arr) {
     let newArr = [];
