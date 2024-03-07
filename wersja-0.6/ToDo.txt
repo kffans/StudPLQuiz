@@ -1,5 +1,0 @@
-Do zrobienia:
-- wygląd ładowanego quizu
-- treści quziów
-- animacje
-- wyskakujące okienko z punktami
