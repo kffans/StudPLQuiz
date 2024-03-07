@@ -1,6 +1,7 @@
 var answerIndex = [];
 var quizId = '';
 const questionsPerQuiz = 10;
+
 function quizInterpret() {
     let content = document.getElementById('quizContent').innerHTML;
     if (content=="") { return 0; }
@@ -81,6 +82,7 @@ function quizInterpret() {
     
     return 1;
 }
+
 function quizLoad(quizName) {
     $("#quizContent").load("quiz/" + quizName + ".txt", function(responseTxt, statusTxt, xhr) {
         if (statusTxt == "success") {
@@ -92,10 +94,12 @@ function quizLoad(quizName) {
             console.log("Error: " + xhr.status + ": " + xhr.statusText);
     });
 }
+
 function quizHome() {
     document.getElementById('quizSelect').style.display = "flex";
     document.getElementById('quizForm').style.display = "none";
 }
+
 function quizCheckAnswers() {
     let N = answerIndex.length;
     let points = 0;
@@ -138,6 +142,7 @@ function quizCheckAnswers() {
         }
     }
 }
+
 function transformArr(vector, N, arr) {
     let newArr = [];
     for (let i = 0; i < N; i++) {
@@ -145,6 +150,7 @@ function transformArr(vector, N, arr) {
     }
     return newArr;
 }
+
 function shuffle(array) {
     let arr = [];
     for (let i = 0; i < array.length; i++) { arr[i] = array[i]; }
@@ -156,4 +162,3 @@ function shuffle(array) {
     }
     return arr;
 }
-
