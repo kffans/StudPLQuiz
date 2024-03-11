@@ -6,6 +6,7 @@ function quizInterpret() {
     let content = document.getElementById('quizContent').innerHTML;
     if (content=="") { return 0; }
     let quiz    = document.getElementById('quizForm');
+    let quizTitle = document.getElementById('quizName');
     content     = content.replace(/[\r\n]/gm, '');                /* removes line-breaking characters */
     document.getElementById('quizContent').innerHTML = "";
     
@@ -59,8 +60,17 @@ function quizInterpret() {
     answerIndex = answerIndex.slice(0, maxQuestionCount);
     
     /* building block */
-    quiz.innerHTML = "<br><h1>" + quizName + "</h1><br>";
-    quiz.innerHTML += '<button onclick="quizHome();">Powrót do wyboru quizu</button>';
+    quizTitle.innerHTML = "<br><h1 id='facultiesName'>" + quizName + "</h1><br>";
+
+    if(quizId == 'weii'){
+        quizTitle.innerHTML += "<img src='/wersja-0.6/img/wydzialy/weii.jpg' alt='nie widze' width='90%'>";
+        document.getElementById('facultiesName').style.color = "#F0B801";
+    }
+    quizTitle.innerHTML += '<button onclick="quizHome();">Powrót do wyboru quizu</button>';
+
+
+
+    quiz.innerHTML = "";
     for (let i = 0; i < maxQuestionCount; i++) {
         let nameId = String(quizId) + '_' + String(i);
         quiz.innerHTML += '<br><a id="' + nameId + '"><b>{' + (i+1) + '} ' + questionText[i] + "</b></a>";
@@ -87,7 +97,8 @@ function quizLoad(quizName) {
     $("#quizContent").load("quiz/" + quizName + ".txt", function(responseTxt, statusTxt, xhr) {
         if (statusTxt == "success") {
             document.getElementById('quizSelect').style.display = "none";
-            document.getElementById('quizForm').style.display = "block";
+            document.getElementById('quizName').style.display = "block";
+            document.getElementById('quizForm').style.display = "block"; 
             quizInterpret();
         }
         if (statusTxt == "error")
@@ -97,6 +108,7 @@ function quizLoad(quizName) {
 
 function quizHome() {
     document.getElementById('quizSelect').style.display = "flex";
+    document.getElementById('quizName').style.display = "none";
     document.getElementById('quizForm').style.display = "none";
 }
 
