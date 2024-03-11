@@ -228,28 +228,46 @@ h3 {
 
 /* ////// FACULTIES ///////*/
 
+
 #quizContents{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 20px;
 }
 
 #quizForm{
-    padding: 20px;
+    padding: 20px 20px;
     width: 55%;
     float: left;
-    border: 1px solid gray;
     box-sizing: border-box;
+    box-shadow: 4px 4px 4px gray;
+    transform: skewY(1deg);
+    background-color: #36454f;
 }
 
 #quizName{
-    padding: 20px;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    padding: 10px 0;
     width: 45%;
     float: left;
-    box-sizing: border-box;
-    border: 1px solid gray;
+    transform: skewY(-1deg);
+    box-shadow: 4px 5px 4px gray;
 }
+
+label, input, b{
+    color: white;
+}
+
+i.fa-house::before{
+    font-size: 18px;
+    margin: 5px;
+    color: #36454f;
+}
+
+
 
 /* /////// /////// QUIZ SELECT /////// /////// */
 

@@ -60,20 +60,18 @@ function quizInterpret() {
     answerIndex = answerIndex.slice(0, maxQuestionCount);
     
     /* building block */
-    quizTitle.innerHTML = "<br><h1 id='facultiesName'>" + quizName + "</h1><br>";
-
+    quizTitle.innerHTML = "<br><h2 id='facultiesName'>" + quizName + "</h2><br>";
     if(quizId == 'weii'){
-        quizTitle.innerHTML += "<img src='/wersja-0.6/img/wydzialy/weii.jpg' alt='nie widze' width='90%'>";
+        quizTitle.innerHTML += "<img src='/wersja-0.6/img/wydzialy/weii.jpg' width='90%'>";
         document.getElementById('facultiesName').style.color = "#F0B801";
     }
-    quizTitle.innerHTML += '<button onclick="quizHome();">Powrót do wyboru quizu</button>';
-
+    quizTitle.innerHTML += '<i class="fa-solid fa-house"><button onclick="quizHome();">Powrót do wyboru quizu</button></i>';
 
 
     quiz.innerHTML = "";
     for (let i = 0; i < maxQuestionCount; i++) {
         let nameId = String(quizId) + '_' + String(i);
-        quiz.innerHTML += '<br><a id="' + nameId + '"><b>{' + (i+1) + '} ' + questionText[i] + "</b></a>";
+        quiz.innerHTML += '<br><a id="' + nameId + '"><b id="question">{' + (i+1) + '} ' + questionText[i] + "</b></a>";
         if(photoUrl[i] != "")
             quiz.innerHTML += photoUrl[i];
             //quiz.innerHTML += "<img src='img/" + photoUrl[i] + "'/>";
@@ -174,3 +172,5 @@ function shuffle(array) {
     }
     return arr;
 }
+
+
