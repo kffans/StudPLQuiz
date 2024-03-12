@@ -1,7 +1,74 @@
-wmit\Wydział Matematyki i Informatyki Tehnicznej\1\
+wmit\Wydział Matematyki i Informatyki Technicznej\12\
 
-Pytanie\\4\
-odp1\
-odp2\
-odp3\
-odp4\
+Ile kół naukowych działa w WMIT?\\4\
+7\
+4\
+5\
+12\
+
+Co jest najstarszym kierunkiem na WMIT?\\4\
+Edukacja techniczno-informatyczna\
+Informatyka techniczna\
+Inżynieria bezpieczeństwa\
+Inżynieria i analiza danych\
+
+Który kierunek jest najmłodszy na WMIT?\\4\
+Inżynieria i analiza danych\
+Edukacja techniczno-informatyczna\
+Matematyka\
+Inżynieria bezpieczeństwa\
+
+Ile katedr funkcjonuje na WMIT?\\4\
+5\
+4\
+7\
+11\
+
+Jaki tytuł uzyskują absolwenci kierunku edukacja techniczno-informatyczna po pozytywnej obronie pracy dyplomowej na studiach I stopnia?\\4\
+Inżynier\
+Magister\
+Licencjat\
+Doktor\
+
+Jak nazywa się cecha strony internetowej sprawiająca, że wyświetla się ona prawidłowo na ekranach o różnych rozdzielczościach?\\4\
+Responsywność\
+Abstrakcyjność\
+Polimorficzność\
+Mobilność\
+
+Jak nazywa się narzędzie, które analizuje strukturę i zgodność danego dokumentu z określonymi regułami lub standardami?\\4\
+Walidator\
+Operator\
+Edytor\
+Hermetyzator\
+
+Co nie jest typem złośliwego oprogramowania?\\4\
+Bakteria\
+Wirus\
+Robak\
+Koń trojański\
+
+Do czego <u>nie</u> jest używany program LaTeX?\\4\
+Programowania\
+Produkowania dokumentów tekstowych\
+Produkowania dokumentów graficzno-tekstowych\
+Pisania prac magisterskich\
+
+Jak nazywa się liniowa struktura danych, w której dane dodawane są na wierzch i z tego wierzchołka również są pobierane?\\4\
+Stos\
+Tabela\
+Piramida\
+Góra\
+
+Czym jest router w kontekście sieci komputerowych?\\4\
+Urządzeniem umożliwiającym połączenie wielu sieci komputerowych.\
+Urządzeniem służącym do drukowania dokumentów.\
+Nazwą aplikacji internetowej.\
+Nazwą jednego z systemów operacyjnych.\
+
+Które polecenie w MySql da nam wszystkie dane z tabeli?\\4\
+SELECT * FROM <nazwa tabeli>\
+SELECT ALL FROM <nazwa tabeli>\
+SELECT * FROM TABLE <nazwa tabeli>\
+SELECT ALL FROM TABLE <nazwa tabeli>\
+
