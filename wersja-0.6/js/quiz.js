@@ -65,7 +65,12 @@ function quizInterpret() {
         quizTitle.innerHTML += "<img src='/wersja-0.6/img/wydzialy/weii.jpg' width='90%'>";
         document.getElementById('facultiesName').style.color = "#F0B801";
     }
-    quizTitle.innerHTML += '<i class="fa-solid fa-house"><button onclick="quizHome();">Powrót do wyboru quizu</button></i>';
+
+    if(quizId == 'wmit'){
+        quizTitle.innerHTML += "<img src='/wersja-0.6/img/wydzialy/wmit.jpg' width='90%'>";
+        document.getElementById('facultiesName').style.color = "#EB5427";
+    }
+    quizTitle.innerHTML += '<i class="fa-solid fa-house"><button onclick="quizHome();">Powrót</button></i>';
 
 
     quiz.innerHTML = "";

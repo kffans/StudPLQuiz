@@ -172,6 +172,21 @@ h3 {
     .quizTile {
         width: 60%;
     }
+
+    h2{
+        font-size: 20px;
+    }
+
+    label, input, b{
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    h2{
+        font-size: 16px;
+    }
 }
 
 /* ////// FACULTIES ///////*/
