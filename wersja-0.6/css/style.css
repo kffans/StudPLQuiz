@@ -168,26 +168,7 @@ h3 {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 600px) {
-    .quizTile {
-        width: 60%;
-    }
 
-    h2{
-        font-size: 20px;
-    }
-
-    label, input, b{
-        font-size: 12px;
-    }
-    
-}
-
-@media screen and (max-width: 450px){
-    h2{
-        font-size: 16px;
-    }
-}
 
 /* ////// FACULTIES ///////*/
 
@@ -270,6 +251,7 @@ h3 {
     float: left;
     transform: skewY(-1deg);
     box-shadow: 4px 5px 4px gray;
+    background-color: white;
 }
 
 label, input, b{
@@ -277,9 +259,53 @@ label, input, b{
 }
 
 i.fa-house::before{
-    font-size: 18px;
-    margin: 5px;
-    color: #36454f;
+    font-size: 22px;
+    margin: 3px;
+    color: #686868;
+    position: relative;
+    top: 3px;
+}
+
+
+button{
+    background: linear-gradient(0deg, #686868, #989898 );
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    box-shadow: 2px 2px 2px #686868;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .quizTile {
+        width: 60%;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    label, input, b{
+        font-size: 12px;
+    }
+
+    #quizName{
+        width: 100%;
+        clear: both;
+        z-index: 2;
+    }
+
+    #quizForm{
+        width: 100%;
+        z-index: 1;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    h2{
+        font-size: 16px;
+    }
 }
 
 
