@@ -24,9 +24,9 @@ function setWelcome() {
         
         let name = valueFromCookie("name");
         if (name == "") {
-            document.getElementById("nameField").innerHTML = "Cześć!";
+            document.getElementById("nameField").innerHTML = "<h4 style='font-weight: bold;'>Cześć!</h4>";
         } else {
-            document.getElementById("nameField").innerHTML = "Cześć " + valueFromCookie("name") + "!";
+            document.getElementById("nameField").innerHTML = "<h4 style='font-weight: bold;'>Cześć, " + valueFromCookie("name") + "!</h4>";
         }
     } else {
         document.getElementById("hide").style.display = "block";

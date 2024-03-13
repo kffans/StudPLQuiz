@@ -118,8 +118,8 @@ function quizHome() {
 function quizCheckAnswers() {
     let N = answerIndex.length;
     let points = 0;
-    
-    /* reset the styling of answers */
+
+    // Reset answer styles
     for (let i = 0; i < N; i++) {
         let answerName = quizId + '_' + i;
         let radioButtons = document.getElementsByName(answerName);
@@ -130,30 +130,45 @@ function quizCheckAnswers() {
             j++;
         }
     }
-    
-    /* style the answers according to their rightness */
+
+    // Results
     for (let i = 0; i < N; i++) {
         let answerName = quizId + '_' + i;
         let radioButtons = document.getElementsByName(answerName);
         let isAnyRadioChecked = false;
+        let correctAnswerIndex = answerIndex[i]; // Indeks coorect answer
         for (let radio of radioButtons) {
             if (radio.checked) {
                 isAnyRadioChecked = true;
-                break;
+                // Checking
+                if (radio.value == correctAnswerIndex) {
+                    document.getElementById('label_' + answerName + '_' + correctAnswerIndex).style.fontWeight = "bold";
+                    points++;
+                } else {
+                    // Style of wrong answer
+                    document.getElementById('label_' + answerName + '_' + radio.value).style.opacity = "40%";
+                }
+                break; // Next question after chcecking
             }
         }
-        if (isAnyRadioChecked) {
-            let j = 0;
-            for (let radio of radioButtons) {
-                if (answerIndex[i] == j) {                    /* right answer */
-                    document.getElementById('label_' + answerName + '_' + j).style.fontWeight = "bold";
-                    points++;
-                }
-                if (radio.checked && answerIndex[i] != j) {   /* wrong answer */
-                    document.getElementById('label_' + answerName + '_' + j).style.opacity = "40%";
-                }
-                j++;
-            }
+    }
+
+    // show answers
+    let modal = document.getElementById("Results");
+    let span = document.getElementsByClassName("closeButton")[0];
+    let resultElement = document.getElementById('quizResult');
+    resultElement.innerHTML = "Twój wynik: " + points + "/" + N;
+    modal.style.display = "block";
+
+    // close window by  "x"
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // close window
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
         }
     }
 }
