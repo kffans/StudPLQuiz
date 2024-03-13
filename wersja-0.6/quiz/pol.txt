@@ -1,4 +1,4 @@
-pol\Politechnika Lubelska\6\
+pol\Politechnika Lubelska\10\
 
 
 Ile wydziałów funkcjonuje na Politechnice Lubelskiej?\\4\
@@ -36,3 +36,39 @@ Rektor\
 Dziekan\
 Prodziekan\
 Kanclerz\
+
+Kto pełni najwyższą funkcję na uczelni?\\4\
+Rektor\
+Dziekan\
+Prodziekan\
+Kanclerz\
+
+Ile akademików ma Politechnika?\\4\
+4\
+3\
+5\
+2\
+
+Ilu studentów kształci się na Politechnice Lubelskiej\\4\
+ok. 7000\
+ok. 10000\
+ok. 5000\
+ok. 12000\
+
+Ilu studentów kształci się na Politechnice Lubelskiej\\4\
+ok. 7000\
+ok. 10000\
+ok. 5000\
+ok. 12000\
+
+Na jaki kierunek jest najwięcej zapisów\\4\
+Informatyka\
+Inżynieria multimediów\
+Elektrotechnika\
+Bezpieczeństwo\
+
+Czym na politechnice nazywamy rdzewiak?\\4\
+Centrum Innowacji i Zaawansowanych Technologii
+Parking
+Klub studencki
+Wydział Elektrotechniki i Informatyki
