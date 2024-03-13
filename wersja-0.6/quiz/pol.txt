@@ -1,7 +1,38 @@
-pol\Politechnika Lubelska\1\
+pol\Politechnika Lubelska\6\
 
-Pytanie\\4\
-odp1\
-odp2\
-odp3\
-odp4\
+
+Ile wydziałów funkcjonuje na Politechnice Lubelskiej?\\4\
+6\
+7\
+5\
+4\
+
+W którym roku powstała Politechnika Lubelska?\\4\
+1953\
+1940\
+1963\
+1970\
+
+Na jakiej ulicy mieści się Politechnika Lubelska?\\4\
+ul. Nadbystrzycka\
+ul. Zachodnia\
+ul. Nowomiejska\
+ul. Wapienna\
+
+Od kiedy funkcjonuje nazwa Politechnika Lubelska?\\4\
+1977\
+1999\
+2004\
+2000\
+
+Który wydział powstał jako pierwszy?\\4\
+Wydział Elektryczny\
+Wydział Mechaniczny\
+Wydział Elektrotechniki i Informatyki\
+Wydział Środowiska\
+
+Kto pełni najwyższą funkcję na uczelni?\\4\
+Rektor\
+Dziekan\
+Prodziekan\
+Kanclerz\
