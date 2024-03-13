@@ -62,13 +62,18 @@ function quizInterpret() {
     /* building block */
     quizTitle.innerHTML = "<br><h2 id='facultiesName'>" + quizName + "</h2><br>";
     if(quizId == 'weii'){
-        quizTitle.innerHTML += "<img src='/wersja-0.6/img/wydzialy/weii.jpg' width='90%'>";
+        quizTitle.innerHTML += "<img src='/quiz/img/wydzialy/weii.jpg' width='90%'>";
         document.getElementById('facultiesName').style.color = "#F0B801";
     }
 
     if(quizId == 'wmit'){
-        quizTitle.innerHTML += "<img src='/wersja-0.6/img/wydzialy/wmit.jpg' width='90%'>";
+        quizTitle.innerHTML += "<img src='/quiz/img/wydzialy/wmit.jpg' width='90%'>";
         document.getElementById('facultiesName').style.color = "#EB5427";
+    }
+
+    if(quizId == 'pol'){
+        quizTitle.innerHTML += "<img src='/quiz/img/wydzialy/pl.jpg' width='90%'>";
+        document.getElementById('facultiesName').style.color = "black";
     }
     quizTitle.innerHTML += '<i class="fa-solid fa-house"><button onclick="quizHome();">Powrót</button></i>';
 
