@@ -1,6 +1,72 @@
 wm\WM\1\
 
-Pytanie\\4\
+Co to jest Mechatronika?\\4\
+odp1\
+odp2\
+odp3\
+odp4\
+
+Co to jest urządzenie mechatroniczne?\\4\
+odp1\
+odp2\
+odp3\
+odp4\
+
+Na czym polega zasada superpozycji?\\4\
+odp1\
+odp2\
+odp3\
+odp4\
+
+O czym mówi prawo Ohma?\\4\
+Mówi,że natężenie prądu płynącego przez przewodnik jest wprost proporcjonalne do napięcia przyłożonego między jego końcami a współczynnikiem proporcjonalności jest, gdzie to tzw. opór elektryczny .\
+Mówi o natężeniach w węźle: suma natężeń prądów wpływających jest równa sumie natężeń prądów wypływających z węzła.\
+Mówi o spadkach napięcia w oczku: suma spadków napięć w oczku jest równa sumie sił elektromotorycznych.\
+Mówi o tytm,że jeżeli na dane ciało nie działają żadne inne ciała, lub działania innych ciał równoważą się, to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym.\
+
+Jakiego programu nieuzyjemy do zamodelowania części maszyny?\\4\
+Solid Edge\
+NX\
+Inventor\
+LabView\
+
+O czym mówi twierdzenie o trzech siłach w mechanice?\\4\
+Trzy siły są w równowadze, jeżeli ich proste działania przecinają się w jednym punkcie, leżą w jednej płaszczyźnie i trójkąt sił jest trójkątem zamkniętym.\
+układ, w którym proste działania sił są dowolnie położone wzgledem siebie tzn. nie przecinają się w jednym punkcie.\
+algebraiczne sumy rzutów wszystkich sił na dwie osie prostokątnego układu odniesienia były równe zeru \
+układ, w którym proste działania sił  przecinają sie w  jednym punkcie.Taki układ sił można zastąpić jedna siłą (wypadkową tego układu), albo sprowadzić do dwójki zerowej (układ sił jest wtedy w równowadze).\
+
+Na jakim kalkulatorze możemy obliczyc liczby zespolone?\\4\
+Kalkulator standardowy\
+Kalulator Programisty\
+Kalkulator Naukowy\
+Liczydło\
+
+Jakie są podstawowew operacje na sygnałach?\\4\
+AND, OR ,EXOR,NOT\
+OR, NAND, NOT, AND\
+NAND, NOT, EXOR, OR\
+EXOR, AND, XOR,NOT\
+
+Kiedy obwód jest liniowy?\\4\
+Kiedy wszystkie elementy w obwodzie są liniowe\
+Kiedy w obwodzie jest tylko jeden element nieliniowy\
+Kiedy w obwodzie jest przynajmniewj jeden element liniowy\
+Kiedy w obwiedzie jest więcej niż połowa elementów liniowych\
+
+Ile kierunków jest na wydziale Mechanicznym?\\4\
+odp1\
+odp2\
+odp3\
+odp4\
+
+Kiedy powstał Wydział Mechaniczny\\4\
+odp1\
+odp2\
+odp3\
+odp4\
+
+Pytanie12\\4\
 odp1\
 odp2\
 odp3\
